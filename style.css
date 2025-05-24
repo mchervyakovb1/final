@@ -1,1 +1,36 @@
+body {
+    font-family: sans-serif;
+    background-color: rgb(116, 116, 243);;
+}
+
+header{
+     background-image:linear-gradient(to right , rgb(105, 240, 105),white,red);
+    padding: 20px;
+}
+
+
+
+.link-nav{
+      text-decoration: none;
+    background-color: white;
+    padding: 10px;
+    border-radius: 20px ;
+    color: black;
+}
+
+.link-nav:hover{
+    background-color: rgb(182, 229, 245);
+    transform: all 5s lineral;
+    box-shadow:  5px  5px 2px 0 yellow ;
+}
+
+ul{
+    color: yellow;
+}
+
+h1{
+    color: yellow;
+}
+  
+
 
