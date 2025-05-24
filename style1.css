@@ -1,40 +1,37 @@
 body {
     font-family: sans-serif;
-    background-image:linear-gradient(lightgreen,blue);
-}
-header {
-    background-image:linear-gradient(yellow,blue);
-    padding: 20px;
-    margin-bottom: 20px;
-    box-shadow: 5px 5px 2px 0 black
-}
-.link-header {
-    text-decoration: none;
-    border:3px solid black;
-    padding:10px;
-    background-image:linear-gradient(blue, yellow);
-    border-radius: 5px;
-    color: rgb(60, 0, 255);
-}
-.imgmain {
-    display: block;
-    margin-bottom: 30px;
-    border: 5px solid darkblue;
-    border-radius: 29px;
-     box-shadow: 5px 5px 2px 0 black ;
+    background-color: rgb(116, 116, 243);
 }
 
-.imgmainn {
-    display: block;
-    margin-bottom: 30px;
-    border: 5px solid lightgreen;
-    border-radius: 29px;
-    box-shadow: 5px 5px 2px 0 black ;
+header{
+     background-image:linear-gradient(to right , rgb(105, 240, 105),white,red);
+    padding: 20px;
 }
-h1 {
-  background-image:linear-gradient(blue, yellow);
-  margin: auto;
-  width: 50%;
-  text-align:center ;
-  box-shadow: 5px 5px 2px 0 black ;
+
+ul{
+    color: yellow;
 }
+
+.link-header{
+    text-decoration: none;
+    background-color: white;
+    padding: 10px;
+    border-radius: 20px ;
+    color: black;
+}
+
+.link-header:hover{
+    background-color: yellow;
+    transform: all 5s lineral;
+    box-shadow:  5px  5px 2px 0 black ;
+}
+
+h1{
+    text-align: center;
+    color: yellow;
+}
+
+
+
+
+
